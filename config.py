@@ -1,1 +1,1 @@
-CHROME_DRIVER_PATH = './chromedriver'
+CHROME_DRIVER_PATH = '../chromedriver'

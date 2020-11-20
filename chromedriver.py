@@ -5,7 +5,8 @@ from config import CHROME_DRIVER_PATH
 
 def setup_chrome() -> WebDriver:
     chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument("headless")
+    # chrome_options.add_argument("headless")
+    chrome_options.add_argument("--use-fake-ui-for-media-stream")
     chrome_options.add_argument("--window-size=1920x1080")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-gpu")
